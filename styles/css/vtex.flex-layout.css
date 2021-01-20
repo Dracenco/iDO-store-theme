@@ -491,6 +491,7 @@
 
 .flexRow--main-header {
   background-color: white;
+  position: relative;
 }
 
 .flexRowContent--main-header-mobile {
@@ -3424,4 +3425,23 @@
 .flexRow--template-form-main-container {
   width: 725px;
   margin: auto;
+}
+
+.flexRow--updated-category-menu-header,
+.flexRowContent--updated-category-menu-header{
+  height: 100%;
+}
+
+.flexRowContent--updated-category-menu-header{
+  align-items: center;
+}
+
+.flexCol--updated-bambina-menu-desktop-first-column,
+.flexCol--updated-bambinaMenuDesktopSecondColumn,
+.flexCol--updated-bambinaMenuDesktopThirdColumn
+.flexCol--updated-bambino-menu-desktop-first-column,
+.flexCol--updated-bambinoMenuDesktopSecondColumn,
+.flexCol--updated-bambinoMenuDesktopThirdColumn {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
