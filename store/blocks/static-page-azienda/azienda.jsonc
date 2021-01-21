@@ -8,6 +8,7 @@
 
     "responsive-layout.desktop#azienda": {
       "children": [
+        "flex-layout.row#azienda-title",
         "flex-layout.row#azienda"
 
       ]
@@ -18,11 +19,30 @@
         "flex-layout.row#azienda-mobile"
       ]
     },
+/*azienda title*/
 
+    "flex-layout.row#azienda-title": {
+        "children": [
+          "rich-text#azienda"
+        ],
+        "props": {
+          "preventVerticalStretch": true,
+          "blockClass": "flex-row-azienda-title"
+        }
+      },
 
+   "rich-text#azienda": {
+       "props": {
+         "blockClass": "azienda",
+         "text":
+         "Azienda"
+       }
+     },
+
+/*azienda menu*/
    "flex-layout.row#azienda": {
        "children": [
-         "tabs-container#azienda"
+          "tab-layout#azienda-tabs-container"
        ],
        "props": {
        "blockClass": "flex-row-azienda"
@@ -30,94 +50,121 @@
    },
 
 
-  "tabs-container#azienda": {
-    "props": {
-      "menuTitle": "Azienda",
-      "orientation": "horizontal",
-      "tabs": [
-        {
-          "title": "Chi siamo",
-          "id": "tab-wrapper#siamo"
-        },
-        {
-          "title": "Il nostro impegno",
-          "id": "tab-wrapper#impegno"
-        },
-        {
-          "title": "Vuoi aprire un franchising iDO?",
-          "id": "tab-wrapper#aprireFranchising"
-        },
-        {
-          "title": "Rete vendita iDO",
-          "id": "tab-wrapper#reteVendita"
-        },
-        {
-          "title": "Lavora con noi",
-          "id": "tab-wrapper#lavoraConNoi"
-        }
+
+    "tab-layout#azienda-tabs-container": {
+      "children": [
+        "tab-list#azienda-tabs-menu",
+        "tab-content#azienda-tabs-content"
+      ],
+      "props": {
+      "defaultActiveTabId": "chisiamo"
+      }
+    },
+
+
+    "tab-list#azienda-tabs-menu": {
+      "children": [
+        "tab-list.item#chisiamo",
+        "tab-list.item#il-nosto-impegno",
+        "tab-list.item#vuoi-aprire-un-franchising-iDO",
+        "tab-list.item#rete-vendita-iDO",
+        "tab-list.item#lavora-con-noi"
       ]
     },
-    "children": [
-      "tab-wrapper#siamo",
-      "tab-wrapper#impegno",
-      "tab-wrapper#aprireFranchising",
-      "tab-wrapper#reteVendita",
-      "tab-wrapper#lavoraConNoi"
-    ]
-  },
+    "tab-list.item#chisiamo": {
+      "props": {
+        "tabId": "chisiamo",
+        "label": "Chi Siamo",
+        "defaultActiveTab": true
+      }
+    },
 
+    "tab-list.item#il-nosto-impegno": {
+          "props": {
+            "tabId": "il-nosto-impegno",
+            "label": "Il nostro impegno",
+            "defaultActiveTab": true
+          }
+        },
+    "tab-list.item#vuoi-aprire-un-franchising-iDO": {
+          "props": {
+            "tabId": "vuoi-aprire-un-franchising-iDO",
+            "label": "Vuoi aprire un franchising iDO?",
+            "defaultActiveTab": true
+          }
+        },
 
-  "tab-wrapper#siamo": {
-    "props": {
-      "title": "chi-siamo"
-    },
-    "children": [
-       "flex-layout.col#chiSiamo"
-    ]
-  },
-  "tab-wrapper#impegno": {
-    "props": {
-      "title": "impegno"
-    },
-    "children": [
-      "flex-layout.col#il-nostro-impegno"
-    ]
-  },
-  "tab-wrapper#aprireFranchising": {
-    "props": {
-      "title": "franchising"
-    },
-    "children": [
-      "flex-layout.col#aprireFranchising"
-    ]
-  },
-  "tab-wrapper#reteVendita": {
-    "props": {
-      "title": "rete-vendite"
-    },
-    "children": [
-      "flex-layout.col#rete-vendite"
-    ]
-  },
-   "tab-wrapper#lavoraConNoi": {
-       "props": {
-         "title": "lavora-con-noi"
-       },
-       "children": [
-         "flex-layout.col#lavora-con-noi"
-       ]
-   },
+    "tab-list.item#rete-vendita-iDO": {
+          "props": {
+            "tabId": "rete-vendita-iDO",
+            "label": "Rete vendita iDO",
+            "defaultActiveTab": true
+          }
+        },
 
-/*azienda*/
-   "rich-text#azienda": {
-       "props": {
-         "blockClass": "azienda",
-         "text":
-         "azienda"
-       }
-     },
+    "tab-list.item#lavora-con-noi": {
+          "props": {
+            "tabId": "lavora-con-noi",
+            "label": "Lavora con noi",
+            "defaultActiveTab": true
+          }
+        },
+
+    "tab-content#azienda-tabs-content": {
+     "children": [
+        "tab-content.item#chisiamo",
+        "tab-content.item#il-nosto-impegno",
+        "tab-content.item#vuoi-aprire-un-franchising-iDO",
+        "tab-content.item#rete-vendita-iDO",
+        "tab-content.item#lavora-con-noi"
+      ],
+      "props": {
+        "tabId": "chisiamo"
+      }
+    },
+    "tab-content.item#chisiamo": {
+      "children": [
+          "flex-layout.col#chiSiamo"
+      ],
+      "props": {
+          "tabId": "chisiamo"
+      }
+    },
+    "tab-content.item#il-nosto-impegno": {
+      "children": [
+          "flex-layout.col#il-nostro-impegno"
+      ],
+      "props": {
+          "tabId": "il-nosto-impegno"
+      }
+    },
+    "tab-content.item#vuoi-aprire-un-franchising-iDO": {
+      "children": [
+          "flex-layout.col#aprireFranchising"
+      ],
+      "props": {
+          "tabId": "vuoi-aprire-un-franchising-iDO"
+      }
+    },
+    "tab-content.item#rete-vendita-iDO": {
+      "children": [
+          "flex-layout.col#rete-vendite"
+      ],
+      "props": {
+          "tabId": "rete-vendita-iDO"
+      }
+    },
+    "tab-content.item#lavora-con-noi": {
+      "children": [
+          "flex-layout.col#lavora-con-noi"
+      ],
+      "props": {
+          "tabId": "lavora-con-noi"
+      }
+    },
 
 /*chi siamo*/
+
 
      "flex-layout.col#chiSiamo": {
         "children": [
