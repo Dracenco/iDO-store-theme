@@ -1,0 +1,245 @@
+{
+  "store.custom#regolamento-gift": {
+      "blocks": [
+        "responsive-layout.desktop#regolamento-gift",
+        "responsive-layout.mobile#regolamento-gift"
+      ]
+    },
+    "responsive-layout.desktop#regolamento-gift": {
+      "children": [
+        "slider-layout#regolamento-gift",
+        "flex-layout.row#regolamento-gift-title",
+        "flex-layout.row#regolamento-gift-content",
+        "flex-layout.row#newslwtter-banner-regolamento-gift"
+      ]
+    },
+
+    "responsive-layout.mobile#regolamento-gift": {
+      "children": [
+        "slider-layout#regolamento-gift-mobile",
+        "flex-layout.row#regolamento-gift-title-mobile",
+        "flex-layout.row#regolamento-gift-content-mobile",
+        "flex-layout.row#newslwtter-banner-regolamento-gift-mobile"
+      ]
+    },
+
+      "slider-layout#regolamento-gift": {
+        "children": [
+        "flex-layout.row#slider-regolamento-gift-info-card-1"
+        ],
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": false,
+          "fullWidth": true,
+          "pauseOnHover": true,
+          "showNavigationArrows": "never",
+          "showPaginationDots":"never",
+          "blockClass": "hatSlider"
+        }
+      },
+
+
+
+    "flex-layout.row#slider-regolamento-gift-info-card-1": {
+       "children": [
+         "stack-layout#slider-regolamento-gift-info-card-1"
+       ],
+       "props": {
+       "blockClass": "flex-row-slider-home-page"
+       }
+    },
+
+    "stack-layout#slider-regolamento-gift-info-card-1": {
+           "props": {
+            "blockClass": "flex-row-slider-home-page"
+           },
+            "children": [
+            "info-card#slider-regolamento-gift-info-card-1"
+
+            ]
+          },
+
+   "info-card#slider-regolamento-gift-info-card-1": {
+       "props": {
+         "id": "slider-home-page-info-card-1",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "/arquivos/regolamento-template@4x.png",
+         "headline": "Regolamento<br>Gift Card iDO",
+         "subhead": "Regala lo stile iDO",
+         "callToActionMode": false,
+         "blockClass": "slider-home-page-info-card-1",
+         "textAlignment": "left"
+       }
+     },
+
+  "flex-layout.row#regolamento-gift-title": {
+       "children": [
+         "rich-text#regolamento-gift-title"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+   },
+
+    "rich-text#regolamento-gift-title": {
+        "props": {
+          "blockClass": "regolamento-gift-title",
+          "text":
+          "Scegli la gift dell’importo che preferisci e fai un regalo di tendenza!"
+        }
+    },
+
+  "flex-layout.row#regolamento-gift-content": {
+       "children": [
+         "rich-text#regolamento-gift-content"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+   },
+    "rich-text#regolamento-gift-content": {
+        "props": {
+          "blockClass": "regolamento-template-content",
+            "text":
+            "REGOLAMENTO GIFT CARD iDO<br><br>1)La gift card (di seguito denominata anche carta) è di proprietà di Miniconf S.p.A. con sede legale in Via provinciale 1/a – 52010 Ortignano Raggiolo P.I. 00249390519.<br><br>2) Il titolare della carta è considerato mero depositario della stessa.<br><br>3)  iDO potrà sostituire la carta in caso di modifiche del formato.<br><br>4) La carta è valida esclusivamente in Italia per l’acquisto degli articoli offerti in vendita nei punti vendita iDO fino alla concorrenza del valore inziale della gift card.<br><br>5) La gift card può essere acquistata utilizzando le modalità di pagamento accettate nei punti vendita iDO.La carta non può essere acquistata utilizzando un’altra gift card.<br><br>6) La vendita della carta è soggetta alla disponibilità nei punti vendita iDO<br><br>7) La carta può essere utilizzata in più soluzioni fino alla concorrenza del valore iniziale indicato.<br><br>8) Il valore residuo della carta sarà disponibile di volta in volta sullo scontrino di cassa che verrà emesso al momento dell’acquisto degli articoli con gift card nei punti vendita iDO.<br><br>9)Se il prezzo di acquisto degli articoli desiderati è superiore al valore residuo della carta, la differenza dovrà essere pagata utilizzando le modalità di pagamento accettate nei punti vendita iDO.<br><br>10) Gli articoli acquistati mediante l’utilizzo della gift card presso i punti vendita iDO saranno soggetti agli stessi termini e condizioni generali di vendita validi per ogni altro articolo acquistato presso i punti vendita iDO.<br><br>11) Gli articoli acquistati con la carta e poi resi verranno gestiti secondo la procedura interna dei negozi iDO e non riaccreditato sulla stessa carta.<br><br>12) La carta non è soggetta al reso della carta o restituzione monetaria<br><br>13) La gift card ha validità di 12 mesi dalla data di acquisto. Dopo la data di scadenza la gift card non potrà più essere utilizzata e l’eventuale importo residuo non verrà rimborsato.<br><br>14) La gift card non è nominativa e può essere utilizzata da chiunque la presenti per l’acquisto degli articoli. Il possessore è l’unico responsabile per l’utilizzo e la custodia della gift<br><br>15) La gift card dovrà essere custodita con cura ed in caso di furto smarrimento e/o danneggiamento la carta non sarà sostituita o rimborsata<br><br>16) Le gift card ottenute con qualsiasi mezzo fraudolento o illegale saranno considerate nulle ed inefficaci, non potranno essere utilizzate per l’acquisto di articoli<br><br>17) la produzione o la distribuzione di gift card false saranno denunciate alla compente autorità<br><br>18)La gift card non può essere utilizzata per scopi pubblicitari e/o di promozione di prodotto e servizi da parte di soggetti terzi estranei al soggetto che emette la gift card, salvo previa autorizzazione dello stesso<br><br>19) L’acquisto e l’utilizzo della card comporta la piena accettazione delle presenti condizioni generali che sono a disposizione del cliente al momento dell’acquisto della gift card presso i punti vendita iDO e sul sito https://www.ido.it/it/blog/regolamento-gift-card-ido.html<br><br>20) La gift card è intesa meramente come modalità di pagamento e non può essere intesa come strumento di investimento e/o sollecitazione di risparmio."
+        }
+   },
+
+
+
+
+/* newsletter template*/
+
+   "flex-layout.row#newslwtter-banner-regolamento-gift": {
+       "children": [
+        "info-card#newslwtter-banner-regolamento-gift"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+   },
+
+  "info-card#newslwtter-banner-regolamento-gift": {
+    "props": {
+      "id": "info-card-fidelity-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "Iscriviti alla newsletter",
+      "callToActionText": "ISCRIVITI",
+      "callToActionUrl": "/iscriviti-alla-newsletter?__bindingAddress=www.ido.it/it",
+      "blockClass": "newsletter-desktop",
+      "textAlignment": "center"
+    }
+  },
+
+
+
+/*mobile*/
+
+      "slider-layout#regolamento-gift-mobile": {
+        "children": [
+        "flex-layout.row#slider-regolamento-gift-info-card-1-mobile"
+        ],
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": false,
+          "fullWidth": true,
+          "pauseOnHover": true,
+          "showNavigationArrows": "never",
+          "showPaginationDots":"never",
+          "blockClass": "hatSlider"
+        }
+      },
+
+
+
+    "flex-layout.row#slider-regolamento-gift-info-card-1-mobile": {
+       "children": [
+         "stack-layout#slider-regolamento-gift-info-card-1-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-slider-home-page-mobile"
+       }
+    },
+
+    "stack-layout#slider-regolamento-gift-info-card-1-mobile": {
+           "props": {
+            "blockClass": "flex-row-slider-home-page-mobile"
+           },
+            "children": [
+            "info-card#slider-regolamento-gift-info-card-1-mobile"
+
+            ]
+          },
+
+   "info-card#slider-regolamento-gift-info-card-1-mobile": {
+       "props": {
+         "id": "slider-home-page-info-card-1",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "/arquivos/regolamento_fidelity_card_mobile.png",
+         "headline": "Regolamento<br>Gift Card iDO",
+         "subhead": "Regala lo stile iDO",
+         "callToActionMode": false,
+         "blockClass": "slider-regolamento-gift-info-card-1-mobile",
+         "textAlignment": "left"
+       }
+     },
+
+  "flex-layout.row#regolamento-gift-title-mobile": {
+       "children": [
+         "rich-text#regolamento-gift-title-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+    "rich-text#regolamento-gift-title-mobile": {
+        "props": {
+          "blockClass": "regolamento-gift-title",
+          "text":
+          "Scegli la gift dell’importo che preferisci e fai un regalo di tendenza!"
+        }
+    },
+
+  "flex-layout.row#regolamento-gift-content-mobile": {
+       "children": [
+         "rich-text#regolamento-gift-content-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+    "rich-text#regolamento-gift-content-mobile": {
+        "props": {
+          "blockClass": "regolamento-gift-content-mobile",
+            "text":
+            "REGOLAMENTO GIFT CARD iDO<br><br>1)La gift card (di seguito denominata anche carta) è di proprietà di Miniconf S.p.A. con sede legale in Via provinciale 1/a – 52010 Ortignano Raggiolo P.I. 00249390519.<br><br>2) Il titolare della carta è considerato mero depositario della stessa.<br><br>3)  iDO potrà sostituire la carta in caso di modifiche del formato.<br><br>4) La carta è valida esclusivamente in Italia per l’acquisto degli articoli offerti in vendita nei punti vendita iDO fino alla concorrenza del valore inziale della gift card.<br><br>5) La gift card può essere acquistata utilizzando le modalità di pagamento accettate nei punti vendita iDO.La carta non può essere acquistata utilizzando un’altra gift card.<br><br>6) La vendita della carta è soggetta alla disponibilità nei punti vendita iDO<br><br>7) La carta può essere utilizzata in più soluzioni fino alla concorrenza del valore iniziale indicato.<br><br>8) Il valore residuo della carta sarà disponibile di volta in volta sullo scontrino di cassa che verrà emesso al momento dell’acquisto degli articoli con gift card nei punti vendita iDO.<br><br>9)Se il prezzo di acquisto degli articoli desiderati è superiore al valore residuo della carta, la differenza dovrà essere pagata utilizzando le modalità di pagamento accettate nei punti vendita iDO.<br><br>10) Gli articoli acquistati mediante l’utilizzo della gift card presso i punti vendita iDO saranno soggetti agli stessi termini e condizioni generali di vendita validi per ogni altro articolo acquistato presso i punti vendita iDO.<br><br>11) Gli articoli acquistati con la carta e poi resi verranno gestiti secondo la procedura interna dei negozi iDO e non riaccreditato sulla stessa carta.<br><br>12) La carta non è soggetta al reso della carta o restituzione monetaria<br><br>13) La gift card ha validità di 12 mesi dalla data di acquisto. Dopo la data di scadenza la gift card non potrà più essere utilizzata e l’eventuale importo residuo non verrà rimborsato.<br><br>14) La gift card non è nominativa e può essere utilizzata da chiunque la presenti per l’acquisto degli articoli. Il possessore è l’unico responsabile per l’utilizzo e la custodia della gift<br><br>15) La gift card dovrà essere custodita con cura ed in caso di furto smarrimento e/o danneggiamento la carta non sarà sostituita o rimborsata<br><br>16) Le gift card ottenute con qualsiasi mezzo fraudolento o illegale saranno considerate nulle ed inefficaci, non potranno essere utilizzate per l’acquisto di articoli<br><br>17) la produzione o la distribuzione di gift card false saranno denunciate alla compente autorità<br><br>18)La gift card non può essere utilizzata per scopi pubblicitari e/o di promozione di prodotto e servizi da parte di soggetti terzi estranei al soggetto che emette la gift card, salvo previa autorizzazione dello stesso<br><br>19) L’acquisto e l’utilizzo della card comporta la piena accettazione delle presenti condizioni generali che sono a disposizione del cliente al momento dell’acquisto della gift card presso i punti vendita iDO e sul sito https://www.ido.it/it/blog/regolamento-gift-card-ido.html<br><br>20) La gift card è intesa meramente come modalità di pagamento e non può essere intesa come strumento di investimento e/o sollecitazione di risparmio."
+        }
+   },
+
+
+
+
+/* newsletter template*/
+
+   "flex-layout.row#newslwtter-banner-regolamento-gift-mobile": {
+       "children": [
+        "info-card#newslwtter-banner-hp-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+   }
+
+}
