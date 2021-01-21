@@ -59,7 +59,6 @@
     "vtex.store-form": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.condition-layout": "2.x",
-    "vtex.tab-layout": "0.x"
     "vtex.category-menu": "2.x"
   },
   "peerDependencies": {
@@ -67,6 +66,7 @@
     "storeido.my-account": "0.x",
     "codeby.product-specification-accordion": "1.x",
     "codeby.custom-state-handles": "0.x",
+    "codeby.menu-tabs": "0.x",
     "acupula.kitlook": "0.x",
     "vtex.wish-list": "1.x",
     "codeby.upload-button": "0.x"
