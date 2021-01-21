@@ -3254,6 +3254,7 @@
 
 :global(.vtex-flex-layout-0-x-flexCol--flex-col-brand-card1-mobile) {
   margin-top: 68px;
+  margin-bottom: 1px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--brand-info-cards-mobile) {
