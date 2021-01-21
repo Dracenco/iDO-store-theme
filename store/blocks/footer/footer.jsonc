@@ -313,7 +313,7 @@
 
   "rich-text#footer-spedizione-content": {
     "props": {
-      "text": "Per ordini superiori a 70€<br>o per consegna nei negozi myiDO",
+      "text": "Entro 3 giorni lavorativi",
       "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
     }
   },

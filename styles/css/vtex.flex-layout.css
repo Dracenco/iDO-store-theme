@@ -104,17 +104,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .flexRowContent--flex-row-all-static-pages-brand {
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .flexRowContent--flex-row-azienda {
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .flexRowContent--flex-row-azienda-title {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -243,22 +233,12 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .flexRow--flex-row-all-static-pages-brand {
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .flexRow--flex-row-all-static-pages-slider-ogni-occasione {
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
   }
   .flexRowContent--flex-row-azienda {
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .flexRowContent--flex-row-azienda-title {
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
@@ -375,22 +355,12 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .flexRow--flex-row-all-static-pages-brand {
-    max-width: 1025px;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .flexRow--flex-row-all-static-pages-slider-ogni-occasione {
     max-width: 1025px;
     margin-left: auto;
     margin-right: auto;
   }
   .flexRowContent--flex-row-azienda {
-    max-width: 1025px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .flexRowContent--flex-row-azienda-title {
     max-width: 1025px;
     margin-left: auto;
     margin-right: auto;
@@ -1903,12 +1873,6 @@
   margin-bottom: 72px;
 }
 
-.flexRow--flex-row-azienda-title :global(.vtex-store-components-3-x-container) {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 :global(.vtex-flex-layout-0-x-flexColChild--flex-col-faq) {
   margin-right: 20px;
 }
@@ -3300,26 +3264,6 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--newslwtter-banner-template-mobile) {
   margin-bottom: 58px;
 }
-
-:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-all-static-pages-brand) {
-  background-color: #edecec;
-  height: 876px;
-}
-:global(.vtex-flex-layout-0-x-flexRowContent--chiSiamo) {
-  flex-direction: column;
-}
-
-
-:global(.vtex-flex-layout-0-x-flexCol--flex-col-brand-card2-mobile) {
-  margin-bottom: 147px;
-}
-
-:global(.vtex-flex-layout-0-x-flexCol--flex-col-brand-card1-mobile) {
-  margin-top: 68px;
-}
-
-:global(.vtex-flex-layout-0-x-flexRowContent--brand-info-cards-mobile) {
-  background-color: #edecec;
 
 .flexRow--acupula-desktop-product :global(.vtex-button) {
   background-color: #001930;
