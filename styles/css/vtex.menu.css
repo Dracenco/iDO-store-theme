@@ -157,3 +157,23 @@
 :global(.vtex-menu-2-x-submenuWrapper--bambina-desktop-main-container) {
   max-width: 100%;
 }
+
+.submenuContainer--updated-bambina-desktop-main-container-submenu-first-column,
+.submenuContainer--updated-bambino-desktop-main-container-submenu-first-column {
+  position: unset!important;
+}
+
+.submenuWrapper--updated-bambina-desktop-main-container-submenu-first-column--isClosed,
+.submenuWrapper--updated-bambina-desktop-main-container-submenu-first-column--isOpen,
+.submenuWrapper--updated-bambino-desktop-main-container-submenu-first-column--isClosed,
+.submenuWrapper--updated-bambino-desktop-main-container-submenu-first-column--isOpen {
+  width: 100%!important;
+}
+
+.submenu--updated-bambina-desktop-main-container-submenu-first-column,
+.submenu--updated-bambino-desktop-main-container-submenu-first-column {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20rem;
+  padding-top: 25px;
+}

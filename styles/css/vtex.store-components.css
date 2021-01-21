@@ -1668,7 +1668,7 @@ store locator mobile version final */
 /* TEMPLATE*/
 
 .infoCardCallActionContainer--template-info-card1 :global(.vtex-button) {
-  width: 190px;
+  width: 211px;
   height: 40px;
   border-radius: 25px;
   border: 1px solid #001930;
@@ -1696,7 +1696,7 @@ store locator mobile version final */
 
 
 .infoCardCallActionContainer--template-info-card2 :global(.vtex-button) {
-  width: 190px;
+  width: 211px;
   height: 40px;
   border-radius: 25px;
   border: 1px solid #001930;
@@ -2485,6 +2485,7 @@ store locator mobile version final */
   text-align: center;
   text-transform: uppercase;
 }
+
 :global(.vtex-store-components-3-x-imageElement--brand-image1) {
   margin-top: 81px;
   border: 1px solid #b7b7b7;
@@ -2639,6 +2640,271 @@ store locator mobile version final */
 }
 
 :global(.vtex-store-components-3-x-infoCardHeadline--brand-image2-mobile) {
+=======
+
+.infoCardTextContainer--2-row-1-element-kitlook-1-page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.infoCardCallActionContainer--2-row-1-element-kitlook-1-page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.infoCardCallActionContainer--2-row-1-element-kitlook-1-page :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardTextContainer--2-row-2-element-kitlook-1-page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.infoCardCallActionContainer--2-row-2-element-kitlook-1-page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.infoCardCallActionContainer--2-row-2-element-kitlook-1-page :global(.vtex-button) {
+  display: none;
+}
+
+
+.infoCardTextContainer--4-row-1-element-kitlook-1-page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.infoCardCallActionContainer--4-row-1-element-kitlook-1-page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.infoCardCallActionContainer--4-row-1-element-kitlook-1-page :global(.vtex-button) {
+  display: none;
+}
+
+
+.infoCardTextContainer--4-row-2-element-kitlook-1-page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.infoCardCallActionContainer--4-row-2-element-kitlook-1-page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.infoCardCallActionContainer--4-row-2-element-kitlook-1-page :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardTextContainer--6-row-1-element-kitlook-1-page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.infoCardCallActionContainer--6-row-1-element-kitlook-1-page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.infoCardCallActionContainer--6-row-1-element-kitlook-1-page :global(.vtex-button) {
+  display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .infoCardContainer--template-info-card1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+  .infoCardContainer--template-info-card2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card3 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card5 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card6 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card7 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card8 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--title-kitlook-2-page-2) {
+    width: 335px;
+    height: 29px;
+    color: #001930;
+    font-family: "MuseoSans_700";
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 14px;
+    text-align: left;
+    margin: 10px 0;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--title-kitlook-2-page-1) {
+    width: 321px;
+    height: 50px;
+    color: #001930;
+    font-family: "MuseoSans_700";
+    font-size: 45px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: left;
+    margin: 10px 0;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--title-kitlook-1-page) {
+    width: 321px;
+    color: #001930;
+    font-family: "MuseoSans_700";
+    font-size: 45px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: left;
+  }
+
+  .infoCardTextContainer--2-row-1-element-kitlook-1-page {
+    width: 375px;
+    height: 340px;
+  }
+  .infoCardTextContainer--2-row-2-element-kitlook-1-page {
+    width: 375px;
+    height: 340px;
+  }
+  .infoCardTextContainer--4-row-1-element-kitlook-1-page {
+    width: 375px;
+    height: 340px;
+  }
+  .infoCardTextContainer--4-row-2-element-kitlook-1-page {
+    width: 375px;
+    height: 340px;
+  }
+  .infoCardTextContainer--6-row-1-element-kitlook-1-page {
+    width: 375px;
+    height: 340px;
+  }
+
+  .infoCardContainer--2-row-2-element-kitlook-1-page {
+    margin-top: 15px;
+  }
+  .infoCardContainer--4-row-1-element-kitlook-1-page {
+    margin-top: 15px;
+  }
+  .infoCardContainer--4-row-2-element-kitlook-1-page {
+    margin-top: 15px;
+  }
+  .infoCardContainer--6-row-1-element-kitlook-1-page {
+    margin-top: 15px;
+  }
+}
+
+.infoCardContainer--landing-in-store-desktop-1,
+.infoCardContainer--landing-form-desktop-1{
+  width: 1400px;
+  height: 610px;
+  background-color: #d8d8d8;
+  position: relative;
+}
+.infoCardContainer--landing-in-store-desktop-1 :global(.vtex-button),
+.infoCardContainer--landing-form-desktop-1 :global(.vtex-button){
+  display: none;
+}
+.infoCardCallActionContainer--landing-in-store-desktop-1,
+.infoCardCallActionContainer--landing-form-desktop-1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.infoCardTextContainer--landing-in-store-desktop-1,
+.infoCardTextContainer--landing-form-desktop-1{
+  width: 100%;
+  height: 100%;
+}
+
+.infoCardContainer--landing-in-store-desktop-1-mobile,
+.infoCardContainer--landing-form-desktop-1-mobile{
+  width: 375px;
+  height: 580px;
+  background-color: #d8d8d8;
+  position: relative;
+}
+.infoCardContainer--landing-in-store-desktop-1-mobile :global(.vtex-button),
+.infoCardContainer--landing-form-desktop-1-mobile :global(.vtex-button){
+  display: none;
+}
+
+
+.infoCardCallActionContainer--landing-in-store-desktop-1-mobile,
+.infoCardCallActionContainer--landing-form-desktop-1-mobile{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.infoCardTextContainer--landing-in-store-desktop-1-mobile,
+.infoCardTextContainer--landing-form-desktop-1-mobile {
+  width: 100%;
+  height: 100%;
+}
+
+.infoCardHeadline--landing-in-store-desktop-1,
+.infoCardHeadline--landing-form-desktop-1{
+  width: 643px;
+  height: 143px;
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 65px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.infoCardSubhead--landing-in-store-desktop-1,
+.infoCardSubhead--landing-form-desktop-1{
+  width: 975px;
+  height: 64px;
   color: #001930;
   font-family: "MuseoSans_700";
   font-size: 30px;
@@ -2655,6 +2921,15 @@ store locator mobile version final */
   color: #ffffff;
   font-family: "MuseoSans_700";
   font-size: 35px;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.infoCardHeadline--landing-in-store-desktop-1-mobile,
+.infoCardHeadline--landing-form-desktop-1-mobile{
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 45px;
   font-style: normal;
   letter-spacing: normal;
   text-align: left;
@@ -2798,4 +3073,99 @@ store locator mobile version final */
 
 :global(.vtex-store-components-3-x-infoCardTextContainer--slider-regolamento-gift-info-card-1-mobile) {
   height: 580px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.infoCardSubhead--landing-in-store-desktop-1-mobile,
+.infoCardSubhead--landing-form-desktop-1-mobile{
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+.infoCardHeadline--landing-in-store-desktop-2,
+.infoCardHeadline--landing-form-desktop-2{
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: center;
+}
+.infoCardSubhead--landing-in-store-desktop-2,
+.infoCardSubhead--landing-form-desktop-2{
+  color: #5a5a5a;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: center;
+}
+
+.infoCardHeadline--landing-in-store-desktop-2-mobile,
+.infoCardHeadline--landing-form-desktop-2-mobile{
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: center;
+}
+.infoCardSubhead--landing-in-store-desktop-2-mobile,
+.infoCardSubhead--landing-form-desktop-2-mobile {
+  color: #5a5a5a;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: center;
+}
+
+
+.infoCardContainer--landing-in-store-desktop-2,
+.infoCardContainer--landing-form-desktop-2 {
+  width: 1400px;
+  margin: 2rem 0;
+  border: none;
+}
+.infoCardContainer--landing-in-store-desktop-2-mobile,
+.infoCardContainer--landing-form-desktop-2-mobile{
+  height: 100%;
+  margin: 2rem 0;
+  border: none;
+}
+
+.infoCardContainer--landing-in-store-desktop-2 :global(.vtex-button),
+.infoCardContainer--landing-in-store-desktop-2-mobile :global(.vtex-button),
+.infoCardContainer--landing-form-desktop-2 :global(.vtex-button),
+.infoCardContainer--landing-form-desktop-2-mobile :global(.vtex-button){
+  width: 289px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+  border: none;
+}
+.infoCardContainer--landing-in-store-desktop-2 :global(.vtex-button__label),
+.infoCardContainer--landing-in-store-desktop-2-mobile :global(.vtex-button__label)
+.infoCardContainer--landing-form-desktop-2 :global(.vtex-button__label),
+.infoCardContainer--landing-form-desktop-2-mobile :global(.vtex-button__label){
+  color: #ffffff;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
 }

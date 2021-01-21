@@ -14,6 +14,23 @@
     margin-right: auto;
   }
 
+  .flexRowContent--landing-in-store-desktop-row-main {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--landing-form-desktop-row-main {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexRow--kitlook-row-main {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .flexRow--product-main-container-ido {
     max-width: 1400px;
     margin-left: auto;
@@ -113,6 +130,28 @@
     margin-right: auto;
     display: flex;
   }
+
+
+  .flexRowContent--landing-in-store-desktop-row-main {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .flexRowContent--landing-form-desktop-row-main {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .flexRow--kitlook-row-main {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   :global(.vtex-account) {
     max-width: 1250px!important;
     margin-left: auto;
@@ -240,6 +279,24 @@
   }
   :global(.vtex-account) {
     max-width: 1025px!important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .flexRowContent--landing-in-store-desktop-row-main {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--landing-form-desktop-row-main {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexRow--kitlook-row-main {
+    max-width: 1025px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -464,6 +521,7 @@
 
 .flexRow--main-header {
   background-color: white;
+  position: relative;
 }
 
 .flexRowContent--main-header-mobile {
@@ -3212,6 +3270,9 @@
     margin-right: auto;
     max-width: 1250px;
   }
+
+  .flexRow--acupula-desktop-product :global(.vtex-button) {width: auto!important;}
+
 }
 
 @media only screen and (max-width: 1350px) {
@@ -3220,6 +3281,7 @@
     margin-right: auto;
     max-width: 1025px;
   }
+  .flexRow--acupula-desktop-product :global(.vtex-button) {width: auto!important;}
 }
 
 .flexRow--acupula-desktop-product .flexRowContent--breadcrumb-and-image-container .stretchChildrenWidth:first-child {
@@ -3258,4 +3320,184 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--brand-info-cards-mobile) {
   background-color: #edecec;
+
+.flexRow--acupula-desktop-product :global(.vtex-button) {
+  background-color: #001930;
+  border-color: #001930;
+  font-family: "MuseoSans_700";
+  border-radius: 20px;
+  width: 336px;
+  outline: none;
+}
+
+
+.flexRow--acupula-desktop-product :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  display: none;
+}
+
+
+.flexRow--acupula-desktop-product :global(.vtex-checkbox__inner-container) {
+  border-color: #001930;
+  border-radius: 20px;
+}
+
+.flexRowContent--acupula-desktop-product :global(.vtex-store-components-3-x-swiperCaretNext) {
+  display: none;
+}
+
+.flexRowContent--acupula-desktop-product :global(.vtex-store-components-3-x-swiperCaretPrev) {
+  display: none;
+}
+
+/*
+.flexRow--acupula-desktop-product :global(.vtex-store-components-3-x-swiperCaret) {
+  display: none;
+}*/
+
+.flexRow--acupula-desktop-product :global(.vtex-store-components-3-x-swiperBullet) {
+/*  height: 3px!important;
+  width: 45%!important;
+  border-radius: 0px;
+  color: #001930;*/
+  display: none;
+}
+
+.flexRowContent--kitlook-row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+  height: 605px!important;
+}
+
+.flexRowContent--kitlook-row-3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-3 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+}
+
+.flexRowContent--kitlook-row-4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-4 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+  height: 605px!important;
+}
+
+.flexRowContent--kitlook-row-5 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-5 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+}
+
+.flexRowContent--kitlook-row-6 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-6 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+  height: 605px!important;
+}
+
+.flexRowContent--kitlook-row-7 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-7 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+}
+
+.flexRow--kitlook-row-3 {
+  padding-bottom: 20px;
+}
+
+.flexRow--kitlook-row-5 {
+  padding-bottom: 20px;
+}
+
+.flexRow--kitlook-row-7 {
+  padding-bottom: 20px;
+}
+
+
+.flexRowContent--template-form-row-1 :global(.vtex-input-prefix__group),
+.flexRowContent--template-form-row-2 :global(.vtex-input-prefix__group),
+.flexRowContent--template-form-row-3 :global(.vtex-input-prefix__group),
+.flexRowContent--template-form-row-4 :global(.vtex-input-prefix__group),
+.flexRowContent--template-form-row-5 :global(.vtex-input-prefix__group),
+.flexRowContent--template-form-row-6 :global(.vtex-input-prefix__group){
+  border: solid 1px;
+  margin: .5rem 1rem;
+}
+
+
+.flexRowContent--template-form-row-3 :global(.vtex-input-prefix__group) {
+  width: 325px;
+}
+
+.flexRowContent--template-form-row-1 :global(.vtex-input__label),
+.flexRowContent--template-form-row-2 :global(.vtex-input__label),
+.flexRowContent--template-form-row-3 :global(.vtex-input__label),
+.flexRowContent--template-form-row-4 :global(.vtex-input__label),
+.flexRowContent--template-form-row-5 :global(.vtex-input__label),
+.flexRowContent--template-form-row-6 :global(.vtex-input__label){
+  padding-left: 2rem;
+}
+
+.flexRowContent--template-form-row-4 :global(.vtex-input-prefix__group) {
+  height: 197px!important;
+  margin-bottom: 1rem;
+}
+.flexRowContent--template-form-row-5 :global(.vtex-checkbox__line-container) {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+.flexRowContent--template-form-row-6 :global(.vtex-button) {
+  width: 159px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+  border: none;
+}
+
+.flexRow--template-form-main-container {
+  width: 725px;
+  margin: auto;
+}
+
+.flexRow--updated-category-menu-header,
+.flexRowContent--updated-category-menu-header{
+  height: 100%;
+}
+
+.flexRowContent--updated-category-menu-header{
+  align-items: center;
+}
+
+.flexCol--updated-bambina-menu-desktop-first-column,
+.flexCol--updated-bambinaMenuDesktopSecondColumn,
+.flexCol--updated-bambinaMenuDesktopThirdColumn
+.flexCol--updated-bambino-menu-desktop-first-column,
+.flexCol--updated-bambinoMenuDesktopSecondColumn,
+.flexCol--updated-bambinoMenuDesktopThirdColumn {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
