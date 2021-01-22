@@ -1,0 +1,44 @@
+:global(.vtex-tab-layout-0-x-listContainer) {
+  flex-direction: column;
+}
+:global(.vtex-tab-layout-0-x-container) {
+  display: contents;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer) {
+  width: 30%;
+  justify-content: end;
+}
+.listContainer :global(.vtex-button__label) {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+.listContainer :global(.vtex-button__label):hover {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.listContainer :global(.vtex-button) {
+  background-color: transparent;
+  border-color: transparent;
+  outline: transparent;
+}
+
+:global(.vtex-tab-layout-0-x-listItem) {
+  margin: 0px!important;
+  padding-left: 0px!important;
+}
