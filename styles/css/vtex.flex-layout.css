@@ -3423,6 +3423,25 @@
   border: solid 1px;
   margin: .5rem 1rem;
 }
+.flexRowContent--mobile-template-form-row-1 :global(.vtex-input-prefix__group),
+.flexRowContent--mobile-template-form-row-2 :global(.vtex-input-prefix__group),
+.flexRowContent--mobile-template-form-row-3 :global(.vtex-input-prefix__group),
+.flexRowContent--mobile-template-form-row-5 :global(.vtex-input-prefix__group),
+.flexRowContent--mobile-template-form-row-6 :global(.vtex-input-prefix__group){
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+  margin: .5rem 1rem;
+}
+
+
+.flexRowContent--mobile-template-form-row-4 :global(.vtex-textarea__input){
+  height: 197px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+  width: 337px;
+  margin-left: 17px;
+}
 
 
 .flexRowContent--template-form-row-3 :global(.vtex-input-prefix__group) {
@@ -3432,26 +3451,39 @@
 .flexRowContent--template-form-row-1 :global(.vtex-input__label),
 .flexRowContent--template-form-row-2 :global(.vtex-input__label),
 .flexRowContent--template-form-row-3 :global(.vtex-input__label),
-.flexRowContent--template-form-row-4 :global(.vtex-input__label),
+.flexRowContent--template-form-row-4 :global(.vtex-textarea__label),
 .flexRowContent--template-form-row-5 :global(.vtex-input__label),
 .flexRowContent--template-form-row-6 :global(.vtex-input__label){
   padding-left: 2rem;
 }
 
-.flexRowContent--template-form-row-4 :global(.vtex-input-prefix__group) {
-  height: 197px!important;
-  margin-bottom: 1rem;
+.flexRowContent--mobile-template-form-row-1 :global(.vtex-input__label),
+.flexRowContent--mobile-template-form-row-2 :global(.vtex-input__label),
+.flexRowContent--mobile-template-form-row-3 :global(.vtex-input__label),
+.flexRowContent--mobile-template-form-row-4 :global(.vtex-textarea__label),
+.flexRowContent--mobile-template-form-row-5 :global(.vtex-input__label),
+.flexRowContent--mobile-template-form-row-6 :global(.vtex-input__label){
+  padding: 1rem 0 0 1rem;
+}
+
+.flexRowContent--template-form-row-4 :global(.vtex-textarea__input) {
+  width: 690px;
+  height: 197px;
+  border-radius: 20px;
+  border: 1px solid #001930;
 }
 .flexRowContent--template-form-row-5 :global(.vtex-checkbox__line-container) {
   margin-bottom: 2rem;
   padding-left: 1rem;
 }
-.flexRowContent--template-form-row-6 :global(.vtex-button) {
+.flexRowContent--template-form-row-6 :global(.vtex-button),
+.flexRowContent--mobile-template-form-row-6 :global(.vtex-button){
   width: 159px;
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
   border: none;
+  outline: none;
 }
 
 .flexRow--template-form-main-container {
@@ -3511,4 +3543,9 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--brand-info-cards-mobile) {
   background-color: #edecec;
+}
+
+
+.flexRowContent--mobile-template-form-row-5 {
+  padding: 1rem 0;
 }

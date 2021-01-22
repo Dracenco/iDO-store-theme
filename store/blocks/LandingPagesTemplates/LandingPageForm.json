@@ -95,6 +95,7 @@
     "children": [
       "flex-layout.row#landing-form-desktop-1-mobile",
       "flex-layout.row#landing-form-desktop-2-mobile",
+      "flex-layout.row#template-form-mobile",
       "info-card#newslwtter-banner-hp-mobile"
     ]
   },
@@ -215,7 +216,7 @@
       "blockClass": "template-form-row-4"
     },
     "children": [
-      "form-input.text#comment-template-form"
+      "form-input.textarea#comment-template-form"
     ]
   },
   "flex-layout.row#template-form-row-5": {
@@ -270,7 +271,7 @@
       "placeholder": "Seleziona la provincia"
     }
   },
-  "form-input.text#comment-template-form": {
+  "form-input.textarea#comment-template-form": {
     "props": {
       "pointer": "#/properties/comment",
       "label": "Lascia un commento *"
@@ -286,5 +287,86 @@
     "props": {
       "label": "INVIA"
     }
+  },
+
+  "flex-layout.row#template-form-mobile": {
+    "props": {
+      "blockClass": "mobile-template-form-main-container"
+    },
+    "children": [
+      "flex-layout.col#template-form-mobile"
+    ]
+  },
+  "flex-layout.col#template-form-mobile": {
+    "children": [
+      "form#template-form-mobile"
+    ]
+  },
+
+  "form#template-form-mobile": {
+    "props": {
+      "entity": "TF",
+      "schema": "template_form"
+    },
+    "children": [
+      "flex-layout.row#template-form-row-1-mobile",
+      "flex-layout.row#template-form-row-2-mobile",
+      "flex-layout.row#template-form-row-3-mobile",
+      "flex-layout.row#template-form-row-4-mobile",
+      "flex-layout.row#template-form-row-5-mobile",
+      "flex-layout.row#template-form-row-6-mobile"
+    ],
+    "blocks": ["form-success#template-form"]
+  },
+
+  "flex-layout.row#template-form-row-1-mobile": {
+    "props": {
+      "blockClass": "mobile-template-form-row-1"
+    },
+    "children": [
+      "form-input.text#first-name-template-form",
+      "form-input.text#last-name-template-form"
+    ]
+  },
+  "flex-layout.row#template-form-row-2-mobile": {
+    "props": {
+      "blockClass": "mobile-template-form-row-2"
+    },
+    "children": [
+      "form-input.text#email-template-form",
+      "form-input.text#phone-template-form"
+    ]
+  },
+  "flex-layout.row#template-form-row-3-mobile": {
+    "props": {
+      "blockClass": "mobile-template-form-row-3"
+    },
+    "children": [
+      "form-input.text#state-template-form"
+    ]
+  },
+  "flex-layout.row#template-form-row-4-mobile": {
+    "props": {
+      "blockClass": "mobile-template-form-row-4"
+    },
+    "children": [
+      "form-input.textarea#comment-template-form"
+    ]
+  },
+  "flex-layout.row#template-form-row-5-mobile": {
+    "props": {
+      "blockClass": "mobile-template-form-row-5"
+    },
+    "children": [
+      "form-input.checkbox#agreement-template-form"
+    ]
+  },
+  "flex-layout.row#template-form-row-6-mobile": {
+    "props": {
+      "blockClass": "mobile-template-form-row-6"
+    },
+    "children": [
+      "form-submit#-template-form"
+    ]
   }
 }
